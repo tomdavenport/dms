@@ -2,10 +2,11 @@
 
 title: Digital Marketing Specialist
 locale: en_GB
-description: A digital marketing specialist who guarentees a return on investment.
-logo: site-logo.png
+description: Get more from your digital marketing specialist.
+logo: tom-davenport-speaking.jpg
 search: true
-url: http://localhost:4000
+url: http://www.digitalmarketingspecialist.co.uk
+# url: http://localhost:4000
 
 
 # Jekyll configuration
@@ -38,14 +39,14 @@ owner:
   disqus-shortname: digitalmarketingspecialistltd
   twitter: tomdavenport
   facebook: #username
-  github: tomdavenport
+  github:
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: audio.tom
   instagram: #username
   flickr: #username
   tumblr: #username
   google:
-    plus: tomdavenport
+    plus:
     analytics:
     verify:
     ad-client:
