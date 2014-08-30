@@ -5,8 +5,8 @@ locale: en_GB
 description: Get more from your digital marketing specialist.
 logo: tom-davenport-speaking.jpg
 search: true
-url: http://www.digitalmarketingspecialist.co.uk
-# url: http://localhost:4000
+# url: http://www.digitalmarketingspecialist.co.uk
+url: http://localhost:4000
 
 
 # Jekyll configuration
@@ -33,7 +33,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Tom Davenport
+  name: Digital Marketing Specialist Ltd
   avatar: tom-davenport-speaking.jpg
   email: tom@tomdavenport.co.uk
   disqus-shortname: digitalmarketingspecialistltd
@@ -52,3 +52,5 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+  address: Elcot Lane, Marlborough, Wiltshire, SN8 2AE
+  company-no: 9154639
