@@ -5,8 +5,8 @@ locale: en_GB
 description: Get more from your digital marketing specialist.
 logo: tom-davenport-speaking.jpg
 search: true
-# url: http://www.digitalmarketingspecialist.co.uk
-url: http://localhost:4000
+url: http://www.digitalmarketingspecialist.co.uk
+# url: http://localhost:4000
 
 
 # Jekyll configuration

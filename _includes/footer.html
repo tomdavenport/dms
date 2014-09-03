@@ -1,6 +1,23 @@
 {% if site.owner.google.ad-client and site.owner.google.ad-slot %}{% include ad-footer.html %}{% endif %}
 
-<span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}, {{ site.owner.address }}. Company no: {{ site.owner.company-no }}
+<span>&copy; {{ site.time | date: '%Y' }}
+<span itemscope itemtype="http://schema.org/Corporation">
+	<a itemprop="url" href="http://www.digitalmarketingspecialist.co.uk">
+		<span itemprop="name">
+			{{ site.owner.name }}<br />
+		</span>
+	</a>
+	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">Elcot Mews</span>,
+		<span itemprop="addressLocality">Marlborough</span>,
+		<span itemprop="addressRegion">Wiltshire</span>,
+		<span itemprop="postalCode">SN8 2AE</span>,
+		<span itemprop="addressCountry">United Kingdom</span>.
+	</span>
+	<br />
+	Company no: {{ site.owner.company-no }}
+</span>
+
 <div class="social-icons">
 	{% if site.owner.twitter %}<a href="http://twitter.com/{{ site.owner.twitter }}" title="{{ site.owner.name}} on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>{% endif %}
 	{% if site.owner.facebook %}<a href="http://facebook.com/{{ site.owner.facebook }}" title="{{ site.owner.name}} on Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>{% endif %}
