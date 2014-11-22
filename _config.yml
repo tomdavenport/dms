@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Digital Marketing Specialist
+title: Tom Davenport
 locale: en_GB
-description: Get more from your digital marketing specialist.
+description: Tom Davenport is a digital marketing consultant and  technology journalist.
 logo: tom-davenport-speaking.jpg
 search: true
 # url: http://www.digitalmarketingspecialist.co.uk
@@ -33,7 +33,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Digital Marketing Specialist Ltd
+  name: Tom Davenport
   avatar: tom-davenport-speaking.jpg
   email: tom@tomdavenport.co.uk
   disqus-shortname: digitalmarketingspecialistltd
@@ -52,5 +52,3 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  address: Elcot Lane, Marlborough, Wiltshire, SN8 2AE
-  company-no: 9154639
